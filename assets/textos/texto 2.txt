@@ -1,0 +1,144 @@
+TITULO: Doencas cronicas nao transmissiveis e os desafios da saude em 2050
+TITULO ORIGINAL: Noncommunicable chronic diseases and health challenges in 2050
+AUTORES: Malta, Deborah Carvalho; Veloso, Guilherme Augusto; Gomes, Crizian Saar; Barreto, Mauricio Lima
+FONTE: Revista Brasileira de Epidemiologia, 2026, Volume 29, elocation e260011
+DOI: 10.1590/1980-549720260011
+LICENCA: Creative Commons Attribution License (CC BY 4.0)
+IDIOMA: Resumo em portugues, corpo do artigo em ingles
+
+===============================================================================
+RESUMO
+
+OBJETIVOS: O estudo visa analisar a carga de doencas relacionadas as Doencas Cronicas nao Transmissiveis (DCNT) e aos seus Fatores de Risco (FR) no periodo de 1990 a 2021; e projetar a evolucao de DCNT e FR para os anos de 2030 e 2050.
+
+METODOS: Foram analisadas estimativas de fatores de risco e de mortalidade por DCNT no Brasil e em suas unidades da federacao, com base nos dados do Estudo Global de Doencas.
+
+RESULTADOS: Observou-se uma reducao de 37,7% nas taxas de mortalidade prematura por DCNT e de 34% em Anos de Vida Ajustados por Incapacidade (DALYs) entre 1990 e 2021. As projecoes para 2050 indicam que a mortalidade por doencas cardiovasculares continuara em queda, e que estas serao suplantadas pelas neoplasias. As taxas de mortalidade por diabetes tendem a aumentar, enquanto as doencas respiratorias cronicas apresentam tendencia de reducao. Em 2021, os principais FR associados as mortes prematuras por DCNT foram: pressao arterial elevada, tabagismo, alimentacao inadequada, Indice de Massa Corporal (IMC) elevado e glicose em jejum elevada. As projecoes ate 2050 apontam aumento nos fatores de risco obesidade, pressao arterial elevada, glicose elevada, inatividade fisica e dieta inadequada, o que pode comprometer o alcance das metas de reducao da mortalidade prematura por DCNT estabelecidas para 2050.
+
+CONCLUSAO: O estudo aponta que as metas globais podem nao ser alcancadas, acendendo um alerta para a necessidade urgente de fortalecimento das politicas publicas voltadas a prevencao e ao controle das DCNT.
+
+PALAVRAS-CHAVE: Doencas cronicas nao transmissiveis; Fatores de risco; Carga global da doenca; Brasil
+
+===============================================================================
+INTRODUCTION
+
+Noncommunicable chronic diseases (NCDs) are the leading cause of global morbidity and mortality, resulting in premature deaths, disabilities, loss of quality of life, economic impacts, and burden on health systems. NCDs are estimated to account for 75% of global mortality.
+
+The four main groups of NCDs, cardiovascular diseases (CVD), cancer, chronic respiratory diseases, and diabetes, share common and modifiable behavioral risk factors, such as smoking, alcohol abuse, physical inactivity, and poor diet. In addition to these, metabolic factors such as high blood pressure, obesity, high cholesterol, and high fasting plasma glucose also stand out. Socioeconomic determinants play a strong role in the causality network of NCDs and their risk factors.
+
+The 2030 Agenda for Sustainable Development established a goal of reducing the unconditional probability of premature death from NCDs by one-third. To date, only 19 countries, representing only 2.7% of the world's population, are on track to achieve this goal. At the current pace, it would take approximately 45 years to achieve this goal.
+
+In Brazil, studies indicate that mortality rates from NCDs showed a downward trend between 2010 and 2015. However, this progress was interrupted in 2016 and worsened during the COVID-19 pandemic, compromising the possibility of achieving the 30% reduction target set by the Plano de DANT, a Brazilian strategic action plan to tackle chronic noncommunicable diseases.
+
+In the face of persistent global challenges, new commitments have been proposed. In 2024, the Lancet Commission launched the goal of reducing the probability of premature death from selected diseases by 50% by 2050, a proposal that became known as "50 by 50." This goal can be achieved by addressing 15 priority conditions, 8 related to infectious diseases and maternal health, and 7 related to NCDs and injuries.
+
+The main proposals for achieving the 2050 targets would be: concentrating resources on priority conditions, including NCDs, with a view to maximizing the impact on reducing premature mortality; increasing global health funding; tobacco control as a priority strategy, with tax increases, marketing bans, and other measures; reducing poverty and social inequalities; improving access to primary care and essential medicines; and promoting healthy eating, physical activity, and healthy environments.
+
+In this context, the Brasil Saude Amanha initiative, launched by Fundacao Oswaldo Cruz (Fiocruz), stands out. It is based on the guiding question: what is the future of health in Brazil? The initiative coordinates a multidisciplinary research network focused on investigation, strategic prospecting, and the formulation of public policies for the health sector, strengthening the Unified Health System (SUS).
+
+This study falls within this scope and has the following objectives: to analyze the burden of diseases related to NCDs and their risk factors in the period from 1990 to 2021; and to project the evolution of NCDs and risk factors for the years 2030 and 2050.
+
+===============================================================================
+METHODS
+
+This study analyzed estimates of risk factors and mortality from NCDs in Brazil and its States, based on data from the 2021 Global Burden of Disease (GBD) Study, from the Institute for Health Metrics and Evaluation (IHME).
+
+MORTALITY
+
+The GBD mortality estimates are based on data from the Mortality Information System (SIM) of the Ministry of Health, with adjustments for so-called garbage codes, using algorithms for redistributing the underlying causes of death, considering age, sex, and year.
+
+The unconditional probabilities of premature death from NCDs were calculated. For each age group, the probability of death during the interval was estimated based on the age-specific mortality rate.
+
+The metrics used to analyze the burden of NCDs in Brazil were: absolute number of deaths, age-standardized mortality rates, and years of life lost due to premature death and Disability-Adjusted Life Years (DALYs). These metrics were presented for all age groups and for premature deaths between 30 and 69 years of age, according to the World Health Organization (WHO) Global Plan. The analyses covered all diseases and the four main groups of NCDs in Brazil in 1990 and 2021, as well as the percentage change over the period.
+
+To verify subnational inequalities, premature mortality rates from NCDs were analyzed for the 26 Brazilian States and the Federal District in 1990 and 2021.
+
+RISK FACTORS
+
+The main sources of data on risk factors for the Brazilian population used by the GBD were the National Health Survey (PNS), the Surveillance System for Risk and Protective Factors for Chronic Diseases (Vigitel), and the National School Health Survey (PeNSE).
+
+The GBD study uses a hierarchical list of risk factors organized into four levels, ranging from broad groups (metabolic, behavioral, and environmental) to more detailed ones, totaling 87 factors analyzed in 2021.
+
+Regarding risk factors, the Summary Exposure Value (SEV) was analyzed. The SEV represents the prevalence of exposure weighted by relative risk, ranging from 0% to 100%, in which 0% indicates a total absence of exposure and 100% corresponds to the maximum level of exposure observed in the population. A reduction in SEV indicates a decrease in population exposure to the risk factor, whereas an increase suggests the opposite.
+
+PROJECTIONS FOR 2050
+
+SEV trends for risk factors related to NCDs between 1990 and 2021 were analyzed, including: smoking, poor diet, low physical activity, excessive alcohol consumption, high blood pressure, high cholesterol, impaired kidney function, high fasting blood glucose, high Body Mass Index (BMI), air pollution, and temperature. Based on the evolution observed during this period, projections for these indicators were calculated up to the year 2050.
+
+Projections were calculated for premature mortality rates and mortality rates at all ages by NCDs and their four main groups, as well as the probability of premature death for the years 2030 and 2050. These results were compared to the Sustainable Development Goals targets agreed upon in 2015, which estimate a 30% reduction in the unconditional probability of premature death from NCDs. Projections were also made to compare with the target proposed by the Lancet Commission, a 50% reduction by 2050. The values observed from the years 2015 to 2021 were used as a reference for the projection calculations.
+
+An ETS model was used. The term refers to the class of models that combine three fundamental components: Error, Trend, and Seasonality, of the type Additive, Additive Trend, and No Seasonality. This model is especially suitable for time series that exhibit a trend but do not show seasonal patterns. In addition, a dampened trend was used, which introduces a dampening factor to gradually reduce the influence of the trend on long-term projections.
+
+The analyses were conducted in RStudio and the figures were produced using the ggplot2 package.
+
+ETHICAL CONSIDERATIONS
+
+The GBD-Brazil project was approved by the Research Ethics Committee of Universidade Federal de Minas Gerais (UFMG), registered under Project number CAAE 62803316.7.0000.5149.
+
+===============================================================================
+RESULTS
+
+MORTALITY
+
+Premature mortality rates from all causes decreased by 7.1%. In the same period, there was a 37.7% reduction in premature mortality rates from NCDs and a 34% reduction in DALY rates. Between 1990 and 2021, premature mortality rates from cardiovascular diseases, chronic respiratory diseases, diabetes mellitus, and neoplasms decreased by 52.7%, 38.5%, 24%, and 12.5%, respectively. DALY rates showed similar reductions.
+
+A reduction in mortality rates from NCDs, cardiovascular diseases, and chronic respiratory diseases was observed in most states. The largest declines in cardiovascular disease mortality rates were recorded in the Federal District (-72.9%) and Roraima (-72.1%). For diabetes and neoplasms, patterns varied across States. Mortality rates from neoplasms showed the largest reductions in Roraima (-52.3%) and the largest increase in Rio Grande do Norte (+35.6%), remaining relatively stable in most states.
+
+RISK FACTORS
+
+Between 1990 and 2021, the largest reductions in SEV for both sexes combined and all ages occurred for tobacco (-55.9%) and air pollution (-44.13%). In contrast, increases in SEV were observed for the following risk factors: high BMI (+96.94%), high fasting blood glucose (+53.28%), and low physical activity (+39.68%). Similar results were found when analyzing the population aged 30 to 69 years.
+
+PROJECTIONS FOR 2030 AND 2050
+
+When analyzing SEV projections until 2050, it was observed that high LDL cholesterol, blood pressure, fasting glucose, BMI, low physical activity, risks related to diet and nutrition, temperature, and renal function show an upward trend between 30 and 69 years of age and across all ages. Smoking, although declining at the beginning of the series, tended to stabilize between the ages of 30 and 69. Excessive alcohol consumption and exposure to air pollution showed a downward trend.
+
+Premature deaths from cardiovascular disease continue to decline steadily and, from 2024 and 2025 onwards, these will be lower than those from neoplasms, the latter reaching the highest rates among all chronic noncommunicable diseases in the coming decades. Mortality rates from chronic respiratory diseases and diabetes show more modest declines. When all age groups are considered, there will be declines in cardiovascular disease, which remains in first place, followed by cancer and chronic respiratory diseases. In addition, there is an increase in diabetes rates, which will take third place.
+
+The global targets of reducing premature mortality from NCDs by 30% by 2030, based on data from 2015 to 2021, may not be achieved if the behavior observed during this period continues.
+
+===============================================================================
+DISCUSSION
+
+The study pointed to a significant decline in mortality from NCDs between 1990 and 2021, reflecting improved overall living conditions, expanded access to health care such as the expansion of primary care, income distribution programs, access to medicines, and improvements in medium and high complexity care, as well as the reduction of risk factors, such as the prevalence of smoking and increased physical activity. The fundamental role of SUS, which contributed to the improvement of various health indicators and outcomes, should also be highlighted.
+
+However, this decline has not been continuous over time; in 2016 and 2021, there was an increase in mortality rates from NCDs. These are attributed to deepening socioeconomic inequalities, fiscal austerity policies, and underfunding of SUS. The increase observed in 2021 was attributed to the effects of the COVID-19 pandemic, which resulted in both a worsening of the population's lifestyles, with an increase in sedentary lifestyles and feelings of sadness and loneliness, as well as a deterioration in diet, and an increase in mortality, especially from cardiovascular diseases. This scenario can be explained, in part, by the interruption or reduction in clinical follow-up and monitoring of people with NCDs during the pandemic, in addition to the possible effects of long COVID-19.
+
+The largest reductions in cardiovascular disease mortality rates can be explained by several factors, including the expansion of primary health care, income distribution programs, the reduction in smoking prevalence, and improvements in care, both through increased access to primary care services and expanded access to medications for the control of high blood pressure.
+
+The study showed that cancer will become the leading cause of premature death from NCDs in Brazil within a few years, signaling the continuation of the epidemiological transition process in the country. Neoplasms are already the second leading cause of death in most countries. In Uruguay and Argentina, cancer is the leading cause of death. In Brazil, studies point to an increasing trend in the incidence of some types of cancer between 1990 and 2015, such as lung cancer in women (+20.7%) and colon and rectal cancer in men (+29.5%). This change reflects alterations in patterns of exposure to risk factors, therapeutic advances, and early screening and diagnosis systems.
+
+Diabetes is associated with increased mortality from cardiovascular diseases, with systemic effects that impact various organs and functions of the body. There is consistent evidence that the growth in the prevalence of diabetes is strongly associated with the increase in obesity in the population.
+
+The significant reduction in mortality rates from chronic respiratory diseases can be attributed, in large part, to the decline in the prevalence of smoking. Other factors that may have contributed to this trend include increased access to health services, especially with the expansion of Primary Health Care in the country.
+
+According to the analysis by federal units, the patterns show some similarity between States. As for diabetes and neoplasms, there is a trend of increase or stabilization in most States. It is noteworthy that the States in the North and Northeast regions tend to show smaller reductions or even increases in rates, which may be related to worse living conditions, but also to possible limitations in the quality of information in mortality registration systems, especially in previous years.
+
+RISK FACTORS
+
+The results show a significant reduction in the main risk factors, especially behavioral ones, with an emphasis on smoking. Evidence indicates that the control of risk factors and NCDs is more effective when regulatory measures are implemented by the State. In the case of tobacco, several regulatory actions have been adopted, such as accession to the Framework Convention on Tobacco Control in 2006, and Presidential Decree No. 8,262 of 2014, which expanded warnings on cigarette packs and regulated smoke-free environments and taxation on tobacco products. However, since 2016, the country has experienced a weakening of public policies to control smoking, with stagnation in pricing and taxation policies, as well as growing interference by the tobacco industry in the political and legal spheres, highlighting the influence of commercial determinants on health and resulting in poorer policy performance.
+
+Metabolic risk factors project high risks in the future, posing a threat to the health of the population in the coming years. In the last decade, Brazil has implemented important policies to strengthen Primary Health Care, such as the creation of the Mais Medicos Program, expansion of free access to medicines for NCDs, health promotion actions, and income transfer programs.
+
+Obesity is a serious public health problem in Brazil, with a tendency to increase in prevalence among the adult population. It is estimated that approximately one-third of adults in Brazilian State capitals are obese and about 60% are overweight. This rapid growth reinforces the need to expand access to obesity treatment, encourage regular physical activity, promote exclusive breastfeeding, and advance fiscal policies, such as increasing taxation on ultra-processed foods. These measures aim to strengthen access to healthy eating throughout life, in accordance with the guidelines of the Food Guide for the Brazilian Population.
+
+Inadequate nutrition is projected to increase the SEV by 2050. Evidence shows an increase in ultra-processed foods and a reduction in the consumption of fresh foods, such as fruits, vegetables, and beans, as a result of changes in eating patterns, the economic crisis, and the adoption of austerity policies since 2016.
+
+The best evidence indicated by the WHO for the prevention and control of NCDs includes regulatory and health promotion measures, such as taxation of beverages, tobacco, and ultra-processed foods, as well as a ban on the marketing of products harmful to health. Therefore, they depend on investment in public policies and political decisions to advance the proposed agendas, including confronting the interests of industrial and commercial lobbies.
+
+PROJECTIONS FOR 2030 AND 2050
+
+The study indicates that projections of NCD mortality rates for 2030 and 2050 signal the possibility of failure to meet the established reduction targets. This scenario reinforces the need for continuous monitoring to identify possible changes in disease patterns, their determinants, and risk factors, and to adjust coping strategies in a timely manner over the coming years.
+
+Investment in health promotion and NCD prevention actions can result in significant advances, provided there is political will and effective implementation of preventive measures. A concrete example is the global reduction in smoking by about 25% in most countries since the adoption of the Framework Convention on Tobacco Control in 2007. In China, levels of fine particulate matter in the air have been reduced by almost 50% in the last decade, demonstrating the effectiveness of strict environmental policies.
+
+In this context, the measures approved in Brazil regarding tax reform on tobacco and soft drinks represent a strategic opportunity to strengthen fiscal measures on products that are harmful to health, with a potential impact not only on mortality projections until 2050, but also on the sustainability of NCD prevention and control in the long term.
+
+===============================================================================
+STUDY LIMITATIONS
+
+Among the limitations of the study, the projections for 2030 and 2050 were based on trends observed in previous years, assuming the continuity of past patterns as a parameter for the future. However, the future is uncertain and may include unpredictable events, as demonstrated by the COVID-19 pandemic. Incomplete data sources, such as the SIM, have made progress in coverage and improvement of record quality, although underreporting and a high proportion of garbage codes persist. Additionally, social determinants are not directly incorporated into causal analyses.
+
+===============================================================================
+CONCLUSION
+
+The study points out that global targets may not be achieved, raising an alert to the urgent need to strengthen public policies aimed at the prevention and control of chronic noncommunicable diseases. It highlights the importance of intensifying intersectoral actions and strategies for health promotion, early diagnosis, timely access to treatment, and continuous monitoring, especially in the context of Primary Health Care.
