@@ -1,55 +1,79 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+ 
+<p align="center">
+<a href="https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP" border="0" width=40% height=40%></a>
+</p>
+<br>
 # CardioIA — Fase 1: Batimentos de Dados
-## Documento Resumo
  
-**Aluno:** Pedro Gustavo França Moreira
-**Entrega:** 02/09/2026
-**Repositório:** https://github.com/pedromoreira427/cardioia-fase1
+## Nome do grupo
+ 
+<!-- PREENCHER -->
+ 
+## 👨‍🎓 Integrantes:
+- <a href="https://www.linkedin.com/in/pedrogu-moreira">Pedro Gustavo França Moreira</a>
+<!-- PREENCHER demais integrantes -->
+ 
+## 👩‍🏫 Professores:
+ 
+### Tutor(a)
+- <a href="">Nome do Tutor</a>
+### Coordenador(a)
+- <a href="">Nome do Coordenador</a>
+---
+ 
+## 📜 Descrição
+ 
+As doenças cardiovasculares são a principal causa de morte no mundo, com aproximadamente 17,9 milhões de óbitos anuais. Infartos, arritmias, insuficiência cardíaca e AVCs são condições comuns que podem ser prevenidas com diagnóstico precoce — e é exatamente nesse ponto que a Inteligência Artificial tem potencial de impacto real, antecipando eventos críticos e personalizando cuidados.
+ 
+O **CardioIA** é um projeto acadêmico que simula o ecossistema digital de uma cardiologia moderna, integrando dados clínicos, modelos de Machine Learning, Visão Computacional, IoT e agentes inteligentes ao longo de sete fases.
+ 
+Esta **Fase 1 — Batimentos de Dados** ocupa a posição de fundação do projeto. Aqui não se constrói modelo: constrói-se a base sobre a qual todos os módulos seguintes serão treinados. O papel assumido é o de cientista de dados hospitalar, responsável por levantar, organizar e documentar criticamente três tipos de dados cardiológicos:
+ 
+- **Dados numéricos** — variáveis clínicas de pacientes, que alimentarão os classificadores de risco da Fase 2;
+- **Dados textuais** — literatura científica sobre saúde cardiovascular, corpus inicial para os módulos de NLP e para o assistente virtual da Fase 5;
+- **Dados visuais** — imagens de eletrocardiograma, insumo para os modelos de Visão Computacional da Fase 4.
+Mais do que coletar, esta fase exige **pensamento crítico sobre a origem e a qualidade desses dados**. Um sistema de IA aplicado à saúde herda todos os vieses da base que o treinou, e erros de diagnóstico têm custo humano assimétrico. Por isso, este documento dedica uma seção específica à governança de dados, discutindo procedência, licenciamento, representatividade e limitações de cada conjunto — conforme os conceitos abordados no capítulo de Governança em IA desta fase.
  
 ---
  
-### Objetivo da fase
+## 🩺 Parte 1 — Dados Numéricos
  
-Levantar, organizar e documentar criticamente três conjuntos de dados cardiológicos — numéricos, textuais e visuais — que servirão de insumo para os módulos de Machine Learning, NLP e Visão Computacional das fases seguintes do projeto CardioIA.
+### Fonte e procedência
  
----
+| Item | Descrição |
+|---|---|
+| Dataset | Heart Failure Prediction Dataset |
+| Autor | fedesoriano (Kaggle) |
+| Link original | https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction |
+| Licença | Open Database License (ODbL) |
+| Registros | 918 |
+| Variáveis | 12 |
+| Origem | Combinação de 5 bases independentes: Cleveland, Hungria, Suíça, Long Beach VA e Statlog |
+| Formato | .csv |
+| Localização no repositório | `assets/dados/heart.csv` |
  
-### O que foi entregue
+### Dicionário de variáveis
  
-| Parte | Conjunto | Volume | Fonte | Licença |
-|---|---|---|---|---|
-| 1 | Heart Failure Prediction Dataset (.csv) | 918 registros, 12 variáveis | Kaggle (fedesoriano) | ODbL |
-| 2 | Dois artigos científicos (.txt) | Cadernos de Saúde Pública e Rev. Bras. Epidemiologia | SciELO | CC BY 4.0 |
-| 3 | Imagens de eletrocardiograma (.png) | 150 imagens, 3 classes balanceadas | Kaggle (ecg_image_data) | Pública |
+| Variável | Descrição | Relevância clínica |
+|---|---|---|
+| `Age` | Idade em anos | Quanto maior a idade, maior a probabilidade de evento cardíaco — o risco cardiovascular é cumulativo ao longo da vida |
+| `Sex` | Sexo (M/F) | Homens e mulheres apresentam perfis de risco distintos, com diferenças de predisposição e de apresentação clínica. Vale registrar que a maioria dos estudos históricos em cardiologia foi conduzida em homens, o que gera lacuna de conhecimento sobre a população feminina |
+| `ChestPainType` | Tipo de dor torácica (TA, ATA, NAP, ASY) | O padrão da dor orienta a suspeita: angina típica sugere obstrução coronariana, enquanto o quadro assintomático (ASY) é traiçoeiro justamente por não gerar alerta no paciente |
+| `RestingBP` | Pressão arterial em repouso (mm Hg) | Hipertensão crônica sobrecarrega o músculo cardíaco e danifica as artérias ao longo dos anos |
+| `Cholesterol` | Colesterol sérico (mg/dl) | Colesterol elevado forma placas de gordura que estreitam as artérias e reduzem o fluxo sanguíneo ao coração |
+| `FastingBS` | Glicemia em jejum > 120 mg/dl (1 = sim) | Glicemia alta indica diabetes, que danifica os vasos sanguíneos ao longo do tempo e acelera o processo de obstrução arterial |
+| `RestingECG` | Eletrocardiograma em repouso (Normal, ST, LVH) | Detecta alterações estruturais e elétricas do coração, como a hipertrofia do ventrículo esquerdo — geralmente consequência de anos de pressão alta |
+| `MaxHR` | Frequência cardíaca máxima atingida | Um coração saudável atinge frequências altas sob esforço. Quem tem doença coronariana não consegue elevar a frequência como deveria, portanto **frequência máxima baixa é o sinal de alerta** |
+| `ExerciseAngina` | Angina induzida por exercício (Y/N) | Dor torácica durante o esforço ocorre quando o coração demanda mais oxigênio e as artérias obstruídas não conseguem entregar. Sintoma clássico de isquemia |
+| `Oldpeak` | Depressão do segmento ST | Marcador mais direto de isquemia no teste ergométrico: quanto maior a depressão, mais o coração sofre sob carga |
+| `ST_Slope` | Inclinação do segmento ST no pico do exercício | Inclinação ascendente (*Up*) é o padrão normal; plana (*Flat*) ou descendente (*Down*) indica comprometimento |
+| `HeartDisease` | Classe alvo (1 = doença, 0 = normal) | Variável resposta — é o que os modelos das fases seguintes tentarão prever |
  
-Todos os conjuntos estão documentados no README principal com link de origem, licença, dicionário de variáveis e justificativa de uso nas fases seguintes.
+### Variáveis de maior relevância
  
----
+Entre as onze variáveis preditoras, destaco quatro como as mais relevantes do ponto de vista clínico:
  
-### Principais decisões de curadoria
+**`Age`**, porque o risco cardiovascular é cumulativo e a idade funciona como proxy de exposição acumulada a todos os demais fatores.
  
-**Balanceamento de classes nas imagens.** Foram selecionadas 50 imagens de cada uma das três classes, em vez de amostragem aleatória, para evitar que modelos futuros aprendam a favorecer a classe majoritária — problema crítico em classificação clínica, onde as classes raras costumam ser as mais relevantes.
- 
-**Escolha do texto original em vez da tradução.** A versão em português do artigo 1 é gerada por tradução automática e apresenta erros terminológicos graves — "isquemia" traduzida como "deficiência intelectual", "estresse térmico" como "síndrome de hiperinsulinemia". Em um pipeline de NLP, esses erros gerariam entidades médicas falsas. Optou-se pelo texto original em inglês.
- 
-**Limpeza dos textos.** Foram removidos menus de navegação, referências bibliográficas, URLs de citação e resumos duplicados em outros idiomas, preservando apenas o corpo do artigo e o resumo em português, para reduzir ruído em análises futuras.
- 
----
- 
-### Análise de governança — pontos centrais
- 
-**Viés de seleção no dataset numérico.** Quatro das doze variáveis (`MaxHR`, `ExerciseAngina`, `Oldpeak`, `ST_Slope`) só podem ser medidas durante teste ergométrico. Como encaminhamento a esse exame decorre de suspeita clínica prévia, a base representa pacientes já sob investigação cardiológica — não a população geral. A prevalência de doença no conjunto é, portanto, artificialmente elevada, e um modelo treinado nele superestimaria risco se aplicado como triagem populacional. Adicionalmente, os registros com `HeartDisease = 0` não correspondem a pessoas saudáveis, mas a pessoas sintomáticas cujo exame não confirmou a doença.
- 
-**Heterogeneidade de origem.** O dataset combina cinco bases coletadas em países e períodos distintos, com protocolos e equipamentos provavelmente diferentes — fonte de inconsistência não documentada.
- 
-**Assimetria do custo do erro.** Em cardiologia, falso negativo pode ser fatal; falso positivo gera custo e ansiedade. Modelos otimizados apenas por acurácia global tratam os dois como equivalentes, o que é inadequado. As fases seguintes deverão priorizar recall e ajustar limiares ao custo clínico real.
- 
-**Rastreabilidade.** Todas as fontes estão documentadas com link, licença e procedência, permitindo reconstituir a origem de qualquer dado que venha a alimentar um modelo nas fases futuras.
- 
----
- 
-### Conexão com as fases seguintes
- 
-- **Fase 2** — os dados numéricos alimentarão os classificadores supervisionados de risco cardíaco
-- **Fase 4** — as imagens de ECG servirão ao módulo de visão computacional
-- **Fase 5** — o corpus textual será a base do assistente cardiológico virtual e dos módulos de NLP
-As limitações identificadas nesta fase — viés de seleção, heterogeneidade de origem e ausência de contexto clínico nas imagens — devem ser retomadas na validação dos modelos das fases seguintes.
+**`ChestPainType`**, porque é o sintoma que efetivamente leva o paciente ao consultório e orienta a conduta médica inicial — e porque a categoria assintomática revela um grupo de risco que não se queixa.
