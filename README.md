@@ -34,6 +34,7 @@ Esta **Fase 1 — Batimentos de Dados** ocupa a posição de fundação do proje
 - **Dados numéricos** — variáveis clínicas de pacientes, que alimentarão os classificadores de risco da Fase 2;
 - **Dados textuais** — literatura científica sobre saúde cardiovascular, corpus inicial para os módulos de NLP e para o assistente virtual da Fase 5;
 - **Dados visuais** — imagens de eletrocardiograma, insumo para os modelos de Visão Computacional da Fase 4.
+
 Mais do que coletar, esta fase exige **pensamento crítico sobre a origem e a qualidade desses dados**. Um sistema de IA aplicado à saúde herda todos os vieses da base que o treinou, e erros de diagnóstico têm custo humano assimétrico. Por isso, este documento dedica uma seção específica à governança de dados, discutindo procedência, licenciamento, representatividade e limitações de cada conjunto — conforme os conceitos abordados no capítulo de Governança em IA desta fase.
  
 ---
