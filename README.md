@@ -17,9 +17,9 @@
 ## 👩‍🏫 Professores:
  
 ### Tutor(a)
-- <a href="">Nome do Tutor</a>
+- <a href="">Sabrina Otoni</a>
 ### Coordenador(a)
-- <a href="">Nome do Coordenador</a>
+- <a href="">Adré Godoi</a>
 ---
  
 ## 📜 Descrição
